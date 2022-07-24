@@ -277,3 +277,6 @@ Voir documentation :
 https://oauth2-proxy.github.io/oauth2-proxy/docs/configuration/oauth_provider#keycloak-oidc-auth-provider
 
 
+### Références :
+
+https://robrankin.github.io/posts/kibaba-oauth-kubernetes/
