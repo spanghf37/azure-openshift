@@ -264,4 +264,12 @@ Se connecter avec Kibana avec la route habituelle créée par l'ECK (hors oauth2
 
 
 
+### TODO :
+
+Il faut restreindre les utilisateurs autorisés à se connecter à Kibana selon l'appartenance à un groupe dans LDAP.
+
+Pour cela, soit utiliser`--allowed-group` avec provider `oidc` ou provider `keycloak-oidc` dans oauth2-proxy, et dans Keycloak un Mapper Type 'Group Membership' et Token Claim Name 'groups'. Attention, pour `--allowed-group` il faut utiliser le *path* complet de Keycloak, car les groupes Keycloak sont en *tree* : le groupe *admin* est référencé par `/admin`.
+
+Il est aussi possible d'utiliser `--allowed-role` (plusieurs lignes `--allowed-role` si plusieurs rôles).
+
 
