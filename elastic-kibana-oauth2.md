@@ -272,4 +272,8 @@ Pour cela, soit utiliser`--allowed-group` avec provider `oidc` ou provider `keyc
 
 Il est aussi possible d'utiliser `--allowed-role` (plusieurs lignes `--allowed-role` si plusieurs rôles).
 
+Voir documentation :
+
+https://oauth2-proxy.github.io/oauth2-proxy/docs/configuration/oauth_provider#keycloak-oidc-auth-provider
+
 
